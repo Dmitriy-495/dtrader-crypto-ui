@@ -1,15 +1,14 @@
 {
   "name": "dtrader-crypto-ui",
-  "version": "2.0.0",
-  "description": "Терминальный клиент торгового бота dtrader-crypto-2.0 для биржи gate.io",
-  "main": "src/layout.js",
+  "version": "2.5.0",
+  "description": "Терминальный UI для dtrader-crypto (клиентская часть)",
   "type": "module",
+  "main": "src/layout.js",
   "scripts": {
     "start": "node src/layout.js"
   },
   "dependencies": {
-    "dotenv": "^16.6.1",
-    "terminal-kit": "^3.0.0",
-    "ws": "^8.18.0"
+    "dotenv": "^16.4.5",
+    "terminal-kit": "^3.1.2"
   }
 }
