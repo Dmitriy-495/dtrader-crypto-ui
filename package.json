@@ -1,33 +1,14 @@
 {
   "name": "dtrader-crypto-ui",
-  "version": "2.1.0",
-  "description": "Терминальный интерфейс крипто-бота DTrader с отрисовкой в terminal-kit",
-  "main": "src/main.js",
+  "version": "1.0.0",
+  "description": "Консольное UI-приложение для отображения торговых данных криптовалют.",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/main.js",
-    "dev": "clear && node src/main.js",
-    "layout": "node src/layout.js",
-    "lint": "eslint src --fix"
+    "start": "node src/index.js"
   },
   "dependencies": {
-    "dotenv": "^17.2.0",
-    "terminal-kit": "^3.1.2"
-  },
-  "devDependencies": {
-    "eslint": "^9.14.0"
-  },
-  "engines": {
-    "node": ">=22.0.0"
-  },
-  "keywords": [
-    "trading",
-    "crypto",
-    "terminal-ui",
-    "bot",
-    "gate.io",
-    "dtrader"
-  ],
-  "author": "TDA",
-  "license": "MIT"
+    "dotenv": "^16.4.5",
+    "terminal-kit": "3.1.2"
+  }
 }
